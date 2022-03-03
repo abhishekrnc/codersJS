@@ -1,11 +1,23 @@
-// laptop
-//     model=xxx;
-//     color=white
+//variable
+
+//var, let, const
+
+// let language = "Javascript";
+
+// console.log(language);
 
 
-const laptop = {        //creating objects in JS
-    model: "xxx",
-    color: "white"
+// const secondsInMinute = 60;
+
+//function_scope 
+// var language = "language";
+
+//block_scope  for let and const
+function hello() {
+
 }
 
-console.log(laptop.color);
+if (true) {
+ let age = 22;
+ console.log(age);
+}
